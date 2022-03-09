@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mobile-nav {
+  @apply block py-2 px-16 hover:bg-white hover:text-primary;
+}
+
+.contact-btn {
+  @apply bg-primary py-2 px-5 rounded-lg text-white hover:border-primary hover:border hidden md:block hover:bg-white hover:text-primary;
+}
+
+.btn {
+  @apply bg-primary py-3 px-9 rounded-lg text-white hover:text-primary hover:bg-white hover:border-2 hover:border-primary;
+}
+
+.nav {
+  @apply shadow-lg flex justify-between items-center mx-auto px-8 md:px-14 py-3 lg:px-24 w-full shadow-primary;
+}
+
+.features {
+  @apply grid grid-cols-2 gap-y-4 md:grid-cols-4 font-extralight md:mx-10 md:py-7 bg-primary rounded text-center text-sm text-white p-4;
+}

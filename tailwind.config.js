@@ -19,11 +19,13 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        ubuntu: ["Ubuntu", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       colors: {
-        background: "#E5E5E5",
         primary: "#381913",
+      },
+      backgroundImage: {
+        pattern: "url('./assets/bg.png')",
       },
     },
   },
