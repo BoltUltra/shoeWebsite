@@ -11,7 +11,11 @@
 }
 
 .btn {
-  @apply bg-primary py-3 px-9 rounded-lg text-white hover:text-primary hover:bg-white hover:border-2 hover:border-primary;
+  @apply bg-primary text-sm py-2 px-9 rounded-lg text-white hover:text-primary hover:bg-white hover:border-2 hover:border-primary;
+}
+
+.btn2 {
+  @apply bg-white text-sm py-2 px-9 rounded-lg text-primary hover:text-white hover:bg-primary hover:border-2 hover:border-white;
 }
 
 .nav {
@@ -28,4 +32,16 @@
 
 .border-right {
   @apply border-y-primary border border-r-primary rounded-r border-l-transparent;
+}
+
+.card {
+  @apply text-center px-4 pb-10 space-y-5 rounded-lg shadow-primary p-3 border border-primary;
+}
+
+.card-title {
+  @apply font-semibold text-xl text-primary;
+}
+
+.card-title2 {
+  @apply font-semibold text-xl text-white;
 }
