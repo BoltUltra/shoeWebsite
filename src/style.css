@@ -21,3 +21,11 @@
 .features {
   @apply grid grid-cols-2 gap-y-4 md:grid-cols-4 font-extralight md:mx-10 md:py-7 bg-primary md:rounded text-center text-sm text-white p-4;
 }
+
+.border-left {
+  @apply border-t-primary border border-l-primary border-b-primary rounded-l border-r-transparent;
+}
+
+.border-right {
+  @apply border-y-primary border border-r-primary rounded-r border-l-transparent;
+}

@@ -502,6 +502,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.25rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
 .inline {
   display: inline;
 }
@@ -526,12 +534,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 2.5rem;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .items-center {
   align-items: center;
+}
+
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
+.gap-y-3 {
+  row-gap: 0.75rem;
 }
 
 .space-x-12 > :not([hidden]) ~ :not([hidden]) {
@@ -581,6 +602,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-center {
@@ -769,7 +795,31 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
   }
+}
 
+.border-left {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-width: 1px;
+  border-top-color: rgb(56 25 19 / var(--tw-border-opacity));
+  border-left-color: rgb(56 25 19 / var(--tw-border-opacity));
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(56 25 19 / var(--tw-border-opacity));
+  border-right-color: transparent;
+}
+
+.border-right {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-width: 1px;
+  border-top-color: rgb(56 25 19 / var(--tw-border-opacity));
+  border-bottom-color: rgb(56 25 19 / var(--tw-border-opacity));
+  --tw-border-opacity: 1;
+  border-right-color: rgb(56 25 19 / var(--tw-border-opacity));
+  border-left-color: transparent;
+}
+
+@media (min-width: 768px) {
   .md\:flex {
     display: flex;
   }
@@ -784,5 +834,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 }
