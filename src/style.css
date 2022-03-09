@@ -35,7 +35,7 @@
 }
 
 .card {
-  @apply text-center px-4 pb-10 space-y-5 rounded-lg shadow-primary p-3 border border-primary;
+  @apply text-center px-4 py-10 space-y-5 rounded-lg shadow-primary p-3 border border-primary;
 }
 
 .card-title {
