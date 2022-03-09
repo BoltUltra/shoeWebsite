@@ -23,7 +23,7 @@ module.exports = {
       },
       colors: {
         background: "#E5E5E5",
-        primary: "#4F282D",
+        primary: "#381913",
       },
     },
   },

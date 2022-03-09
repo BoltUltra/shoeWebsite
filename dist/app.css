@@ -534,7 +534,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(79 40 45 / var(--tw-bg-opacity));
+  background-color: rgb(56 25 19 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#F80095\] {
