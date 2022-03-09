@@ -26,6 +26,8 @@ module.exports = {
       },
       backgroundImage: {
         pattern: "url('./assets/bg.png')",
+        absract: "url('./assets/abstract.png')",
+        line: "url('./assets/line.png')",
       },
     },
   },

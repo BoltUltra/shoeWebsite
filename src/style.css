@@ -19,5 +19,5 @@
 }
 
 .features {
-  @apply grid grid-cols-2 gap-y-4 md:grid-cols-4 font-extralight md:mx-10 md:py-7 bg-primary rounded text-center text-sm text-white p-4;
+  @apply grid grid-cols-2 gap-y-4 md:grid-cols-4 font-extralight md:mx-10 md:py-7 bg-primary md:rounded text-center text-sm text-white p-4;
 }
