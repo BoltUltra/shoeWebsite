@@ -5,9 +5,10 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Title</title>
+	<title>Ernest's Shoe Shop</title>
 
 	<link rel="stylesheet" href="./dist/app.css">
+	<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
 
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,11 +54,14 @@
 	<main>
 
 		<section class="mt-20 mb-10">
-			<div class="grid flex-col md:grid-cols-2 px-4 text-center">
-				<div class="space-y-4 mb-6">
-					<h1 class="text-4xl font-bold">All Your <span class="text-primary font-extrabold">Footwears</span> Are Here
+			<div class="grid flex-col md:grid-cols-2 px-4 md:px-20 text-center md:text-left">
+				<div class="space-y-4 md:space-y-7 mb-6 md:pt-20">
+					<h1 class="text-4xl md:text-6xl font-bold">All Your <span class="text-primary font-extrabold">Footwears</span>
+						Are Here
 					</h1>
-					<p class="text-base">This Website is a platform where you can see different footwears of different kind</p>
+					<p class="text-base md:text-lg">This Website is a platform where you can see different footwears of
+						different
+						kind</p>
 					<button class="btn">Explore</button>
 				</div>
 				<div class="">
@@ -84,24 +88,25 @@
 			</div>
 		</section>
 
-		<section class="mb-5">
-			<div class="bg-gray-200 mx-5 rounded-lg p-3">
-				<div class="flex flex-col md:flex-row px-3">
-					<div class="text-center text-lg">
+		<section class="mb-5 md:pt-20">
+			<div class="bg-gray-200 mx-5 md:mx-32 rounded-lg p-3">
+				<div class="flex md:grid grid-cols-2 flex-col md:flex-row px-3 md:relative">
+					<div class="text-center md:text-left md:font-semibold md:text-xl text-lg md:py-12 md:px-28">
 						<span>Our experience is always to update to the latest trends</span>
 					</div>
 					<div class="bg-abstract">
-						<img src="./assets/shoe1.png" alt="" class="rounded-lg">
+						<img src="./assets/shoe1.png" alt=""
+							class="rounded-lg md:rounded-none md:absolute md:-top-3/4 md:left-1/2 md:w-60 border-left">
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<section class="mb-5">
-			<div class="mx-5">
-				<div class="md:flex md:tems-center md:justify-between py-4 text-center">
-					<h3 class="mb-5">Our best seller product</h3>
-					<a href="" class="btn mt-4">See all product <i class="fa-solid fa-arrow-right ml-1"></i></a>
+			<div class="mx-5 md:mx-20">
+				<div class="md:flex md:items-center md:justify-between py-4 text-center">
+					<h3 class="mb-5 md:text-xl md:text-primary md:font-bold">Our best seller product</h3>
+					<a href="" class="btn mt-4 md:mt-0">See all product <i class="fa-solid fa-arrow-right ml-1"></i></a>
 				</div>
 				<div class="grid grid-cols-2 md:grid-cols-3 gap-x-2 gap-y-3 mt-4">
 					<div class="border-left">
@@ -127,31 +132,37 @@
 		</section>
 
 		<section class="mb-5">
-			<div class="space-y-4 mx-14">
-				<div class="card">
-					<i class="fa-solid fa-award fa-2x text-primary mt-2"></i>
-					<h4 class="card-title">Years Experience</h4>
-					<p class="text-sm pb-10">Years of vast experience to deliver exceptional footwear!</p>
-					<button class="btn">Contact Us</button>
+			<div class="space-y-4 mx-14 md:mx-36 md:grid md:grid-cols-3 md:gap-x-20">
+				<div class="md:mt-36">
+					<div class="card">
+						<i class="fa-solid fa-award fa-2x text-primary mt-2"></i>
+						<h4 class="card-title">Years Experience</h4>
+						<p class="text-sm pb-10">Years of vast experience to deliver exceptional footwear!</p>
+						<button class="btn">Contact Us</button>
+					</div>
 				</div>
-				<div class="card bg-primary text-white">
-					<i class="fa-solid fa-award fa-2x mt-2"></i>
-					<h4 class="card-title2">Years Experience</h4>
-					<p class="text-sm pb-10">Years of vast experience to deliver exceptional footwear!</p>
-					<button class="btn2">Contact Us</button>
+				<div class="">
+					<div class="card bg-primary text-white">
+						<i class="fa-solid fa-award fa-2x mt-2"></i>
+						<h4 class="card-title2">Years Experience</h4>
+						<p class="text-sm pb-10">Years of vast experience to deliver exceptional footwear!</p>
+						<button class="btn2">Contact Us</button>
+					</div>
 				</div>
-				<div class="card">
-					<i class="fa-solid fa-award fa-2x text-primary mt-2"></i>
-					<h4 class="card-title">Years Experience</h4>
-					<p class="text-sm pb-10">Years of vast experience to deliver exceptional footwear!</p>
-					<button class="btn">Contact Us</button>
+				<div class="md:pt-36">
+					<div class="card">
+						<i class="fa-solid fa-award fa-2x text-primary mt-2"></i>
+						<h4 class="card-title">Years Experience</h4>
+						<p class="text-sm pb-10">Years of vast experience to deliver exceptional footwear!</p>
+						<button class="btn">Contact Us</button>
+					</div>
 				</div>
 
 			</div>
 		</section>
 
 		<section>
-			<div class="bg-gray-200 space-y-6 py-6">
+			<div class="bg-gray-200 space-y-6 md:space-y-0 py-6 md:flex md:justify-center">
 				<div class="mx-20 text-center">
 					<h3 class="font-extrabold text-5xl">36+</h3>
 					<span class="font-light">User Trust</span>
@@ -168,10 +179,15 @@
 		</section>
 
 		<section class="mt-10">
-			<div class="px-10">
-				<div class="text-center space-y-4">
-					<h3 class="card-title">Trending Shoes</h3>
-					<p class="text-sm">These shoes and fresh out from the manufacturing room, very comfortable on the feet</p>
+			<div class="px-10 md:px-32">
+				<div class="text-center space-y-4 md:flex md:justify-between md:text-left items-center">
+					<div class="md:space-y-5 space-y-4">
+						<h3 class="card-title">Trending Shoes</h3>
+						<p class="text-sm md:text-base md:pr-96">These shoes and fresh out from the manufacturing room, very
+							comfortable on
+							the
+							feet</p>
+					</div>
 					<button class="btn">Explore</button>
 				</div>
 
