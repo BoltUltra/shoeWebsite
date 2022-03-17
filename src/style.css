@@ -27,11 +27,11 @@
 }
 
 .border-left {
-  @apply border-t-primary border border-l-primary border-b-primary rounded-l border-r-transparent;
+  @apply border-t-primary md:border-t-0 md:rounded-none border border-l-primary md:border-l-transparent border-b-primary md:border-b-0 rounded-l border-r-transparent md:border-r-primary;
 }
 
 .border-right {
-  @apply border-y-primary border border-r-primary rounded-r border-l-transparent;
+  @apply border-y-primary md:border-y-transparent border border-r-primary rounded-r md:rounded-none border-l-transparent;
 }
 
 .card {
