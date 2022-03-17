@@ -556,22 +556,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.25rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
-}
-
-.mb-32 {
-  margin-bottom: 8rem;
-}
-
-.mt-44 {
-  margin-top: 11rem;
-}
-
-.mt-36 {
-  margin-top: 9rem;
-}
-
 .inline {
   display: inline;
 }
@@ -722,6 +706,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -730,11 +719,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .py-6 {
@@ -762,25 +746,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
-.pt-36 {
-  padding-top: 9rem;
 }
 
 .text-left {
@@ -1190,34 +1157,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 0px;
   }
 
-  .md\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
-  .md\:mt-32 {
-    margin-top: 8rem;
-  }
-
-  .md\:mr-48 {
-    margin-right: 12rem;
-  }
-
-  .md\:mr-6 {
-    margin-right: 1.5rem;
-  }
-
-  .md\:mr-64 {
-    margin-right: 16rem;
-  }
-
-  .md\:mr-9 {
-    margin-right: 2.25rem;
-  }
-
-  .md\:mr-96 {
-    margin-right: 24rem;
-  }
-
   .md\:mt-36 {
     margin-top: 9rem;
   }
@@ -1279,12 +1218,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
-  .md\:space-y-9 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(2.25rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
-  }
-
   .md\:space-y-5 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1298,6 +1231,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .md\:py-12 {
@@ -1315,29 +1253,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 8rem;
   }
 
-  .md\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
   .md\:pt-20 {
     padding-top: 5rem;
   }
 
-  .md\:pr-32 {
-    padding-right: 8rem;
-  }
-
-  .md\:pr-48 {
-    padding-right: 12rem;
+  .md\:pt-36 {
+    padding-top: 9rem;
   }
 
   .md\:pr-96 {
     padding-right: 24rem;
-  }
-
-  .md\:pt-36 {
-    padding-top: 9rem;
   }
 
   .md\:text-left {
